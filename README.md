@@ -17,7 +17,7 @@ Click
   Debouncer
 </h3>
 This module simply is used to prevent any "bouncing" of the buttons which could lead to unintended actions/button presses on the board<br/>
-It is a shift register that is triggered by a clock cycle of 5 Hz
+It is a shift register that is triggered by a clock cycle of 5 Hz<br/>
 <h3>
   Clock Dividers
 </h3>
@@ -25,16 +25,16 @@ It is a shift register that is triggered by a clock cycle of 5 Hz
 <h3>
   VGA Control
 </h3>
-  Keeps track of pixel coordinates (x, y) - 640x480 visual display, 800x525 total display (including horizontal/vertical retrace/porches)
-  800*525*60 = 25 MHz (approx clock signal)
-  Outputs hsync and vsync signals for the display calibration
+  Keeps track of pixel coordinates (x, y) - 640x480 visual display, 800x525 total display (including horizontal/vertical retrace/porches)<br/>
+  800*525*60 = 25 MHz (approx clock signal)<br/>
+  Outputs hsync and vsync signals for the display calibration<br/>
   
 <h3>
   Display Control
 </h3>
-  Controls all of the of the visual components - paddle, wall, goalkeeper, ball
-  Controls the movement of the ball, paddle, gk every refresh_tick (start of vertical retrace, video is not on)
-  Outputs RGB signals to the top module so the FPGA knows what to display
+  Controls all of the of the visual components - paddle, wall, goalkeeper, ball<br/>
+  Controls the movement of the ball, paddle, gk every refresh_tick (start of vertical retrace, video is not on)<br/>
+  Outputs RGB signals to the top module so the FPGA knows what to display on monitor<br/>
   
   
   
